@@ -1,7 +1,7 @@
 <!--- Remove this description and sections that do not apply -->
 
-This issue tracker is only for technical issues related to Ember Plus.
-General EMBP questions and/or support requests and are best directed to the [EMBP Discord](https://discord.gg/j2McpNX).
+This issue tracker is only for technical issues related to Atheneum.
+General EMBP questions and/or support requests and are best directed to the [AEM Discord](https://discord.gg/NwqDppH).
 
 ### Describe the issue
 
