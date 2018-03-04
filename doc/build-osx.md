@@ -1,6 +1,6 @@
 Mac OS X Build Instructions and Notes
 ====================================
-This guide will show you how to build phored (headless client) for OSX.
+This guide will show you how to build atheneumd (headless client) for OSX.
 
 Notes
 -----
@@ -42,14 +42,14 @@ Instructions: Homebrew
         
         Note: On High Sierra (or when libzmq cannot be found), libzmq should be replaced with zeromq
 
-### Building `phored`
+### Building `atheneumd`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/phoreproject/Phore.git
-        cd Phore
+        git clone https://github.com/atheneumproject/atheneum.git
+        cd atheneum
 
-2.  Build phored:
+2.  Build atheneumd:
         
         chmod +x share/genbuild.sh autogen.sh 
         ./autogen.sh
@@ -62,7 +62,7 @@ Instructions: Homebrew
 
         make check
 
-4.  (Optional) You can also install phored to your path:
+4.  (Optional) You can also install atheneumd to your path:
 
         make install
 
@@ -74,7 +74,7 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 1. Make sure you installed everything through homebrew mentioned above
 2. Do a proper ./configure --with-gui=qt5 --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "phore-qt" as project name, enter src/qt as location
+4. Enter "atheneum-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."
@@ -84,11 +84,11 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 
 Creating a release build
 ------------------------
-You can ignore this section if you are building `phored` for your own use.
+You can ignore this section if you are building `atheneumd` for your own use.
 
-phored/phore-cli binaries are not included in the phore-Qt.app bundle.
+atheneumd/-cli binaries are not included in the atheneum-Qt.app bundle.
 
-If you are building `phored` or `phore-qt` for others, your build machine should be set up
+If you are building `atheneumd` or `atheneum-qt` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -97,33 +97,33 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see release-process.md for how the Phore-Qt.app
+Once dependencies are compiled, see release-process.md for how the atheneum-Qt.app
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
 -------
 
-It's now available at `./phored`, provided that you are still in the `src`
+It's now available at `./atheneumd`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./phored` to get the filename where it should be put, or just try these
+Run `./atheneumd` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=phorerpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Phore/phore.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/Phore/phore.conf"
+    echo -e "rpcuser=atheneumrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/atheneum/atheneum.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/atheneum/atheneum.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
 you can monitor its process by looking at the debug.log file, like this:
 
-    tail -f $HOME/Library/Application\ Support/Phore/debug.log
+    tail -f $HOME/Library/Application\ Support/atheneum/debug.log
 
 Other commands:
 -------
 
-    ./phored -daemon # to start the phore daemon.
-    ./phore-cli --help  # for a list of command-line options.
-    ./phore-cli help    # When the daemon is running, to get a list of RPC commands
+    ./atheneumd -daemon # to start the atheneum daemon.
+    ./atheneum-cli --help  # for a list of command-line options.
+    ./atheneum-cli help    # When the daemon is running, to get a list of RPC commands
     
 Troubleshooting:<a name="trouble"></a>
 ---------
@@ -141,7 +141,7 @@ Troubleshooting:<a name="trouble"></a>
         make
         sudo make install
 
-        Then configure Phore with this build of BerkeleyDB,
+        Then configure atheneum with this build of BerkeleyDB,
         ./configure --with-gui=qt5  LDFLAGS="-L/usr/local/BerkeleyDB.4.8/lib/" CPPFLAGS="-I/usr/local/BerkeleyDB.4.8/include/"
                 
         

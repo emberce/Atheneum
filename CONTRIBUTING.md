@@ -1,12 +1,12 @@
-Contributing to Ember Plus
+Contributing to Atheneum
 ============================
 
-The Ember Plus project operates an open contributor model where anyone is
+The Atheneum project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing
 and patches. This document explains the practical process and guidelines for
 contributing.
 
-Firstly in terms of structure, there is no particular concept of "Ember Plus
+Firstly in terms of structure, there is no particular concept of "Atheneum
 developers" in the sense of privileged people. Open source often naturally
 revolves around meritocracy where longer term contributors gain more trust from
 the developer community. However, some hierarchy is necessary for practical
@@ -157,10 +157,10 @@ where possible keep them short, un-complex and easy to verify.
 "Decision Making" Process
 -------------------------
 
-The following applies to code changes to the Ember Plus project, and is not to be
+The following applies to code changes to the Atheneum project, and is not to be
 confused with overall Ember Protocol consensus changes.
 
-Whether a pull request is merged into Ember Plus rests with the project merge
+Whether a pull request is merged into Atheneum rests with the project merge
 maintainers and ultimately the project lead.
 
 Maintainers will take into consideration if a patch is in line with the general
@@ -174,7 +174,7 @@ In general, all pull requests must:
   - be well peer reviewed;
   - follow code style guidelines;
 
-Patches that change Ember Plus consensus rules are considerably more involved than
+Patches that change Atheneum consensus rules are considerably more involved than
 normal because they affect the entire ecosystem and so must be preceded by
 extensive discussions and clear detailing. While each case will be different,
 one should be prepared to expend more time and effort than for other kinds of
@@ -254,7 +254,7 @@ about:
 Release Policy
 --------------
 
-The project leader is the release manager for each Ember Plus release.
+The project leader is the release manager for each Atheneum release.
 
 Copyright
 ---------
