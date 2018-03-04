@@ -1,6 +1,6 @@
 [Protocol]
-exec=phore-qt '%u'
-protocol=phore
+exec=atheneum-qt '%u'
+protocol=atheneum
 input=none
 output=none
 helper=true
