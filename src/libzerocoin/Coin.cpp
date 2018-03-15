@@ -11,6 +11,8 @@
  **/
 
 // Copyright (c) 2017 The PIVX developers
+// Copyright (C) 2018 The Atheneum developers
+ 
 #include <stdexcept>
 #include <iostream>
 #include "Coin.h"
