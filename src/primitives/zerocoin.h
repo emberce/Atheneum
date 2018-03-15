@@ -1,8 +1,9 @@
 // Copyright (c) 2017 The PIVX developers
+// Copyright (C) 2018 The Atheneum developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef PHORE_ZEROCOIN_H
-#define PHORE_ZEROCOIN_H
+#ifndef ATHENEUM_ZEROCOIN_H
+#define ATHENEUM_ZEROCOIN_H
 
 #include <amount.h>
 #include <limits.h>
@@ -189,4 +190,4 @@ public:
     int GetNeededSpends();
 };
 
-#endif //PHORE_ZEROCOIN_H
+#endif //ATHENEUM_ZEROCOIN_H
