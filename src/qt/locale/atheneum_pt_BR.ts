@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços Phore para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your Atheneum addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços Atheneum para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços Phore para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your Atheneum addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços Atheneum para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>Phore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Phore vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas PHRs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
+        <translation>Atheneum vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas AEMs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PHR&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS PHR&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AEM&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS AEM&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,7 +235,7 @@
         <translation>&amp;Encriptação BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Phore Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Atheneum Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -243,8 +243,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>O endereço Phore para assinar a mensagem</translation>
+        <source>The Atheneum address to sign the message with</source>
+        <translation>O endereço Atheneum para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço Phore</translation>
+        <source>Sign the message to prove you own this Atheneum address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço Atheneum</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -291,12 +291,12 @@
         <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>O endereço Phore que assinou a mensagem</translation>
+        <source>The Atheneum address the message was signed with</source>
+        <translation>O endereço Atheneum que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço Phore especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified Atheneum address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço Atheneum especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -586,16 +586,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     <message>
-        <source>Send coins to a Phore address</source>
-        <translation>Enviar moedas para um endereço Phore</translation>
+        <source>Send coins to a Atheneum address</source>
+        <translation>Enviar moedas para um endereço Atheneum</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and phore: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e phore: URIs)</translation>
+        <source>Request payments (generates QR codes and atheneum: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e atheneum: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -606,24 +606,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Phore Core</source>
-        <translation>&amp;Sobre o Phore Core</translation>
+        <source>&amp;About Atheneum Core</source>
+        <translation>&amp;Sobre o Atheneum Core</translation>
     </message>
     <message>
-        <source>Show information about Phore Core</source>
-        <translation>Mostra informação sobre o Phore Core</translation>
+        <source>Show information about Atheneum Core</source>
+        <translation>Mostra informação sobre o Atheneum Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Phore</source>
-        <translation>Modificar opções de configuração para Phore</translation>
+        <source>Modify configuration options for Atheneum</source>
+        <translation>Modificar opções de configuração para Atheneum</translation>
     </message>
     <message>
-        <source>Sign messages with your Phore addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços Phore para provar que você os detém</translation>
+        <source>Sign messages with your Atheneum addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços Atheneum para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Phore addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços Phore especificados</translation>
+        <source>Verify messages to ensure they were signed with specified Atheneum addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços Atheneum especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -654,8 +654,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a Phore: URI or payment request</source>
-        <translation>Abrir um Phore: URI ou requisição de pagamento</translation>
+        <source>Open a Atheneum: URI or payment request</source>
+        <translation>Abrir um Atheneum: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -666,12 +666,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the Phore Core help message to get a list with possible Phore command-line options</source>
-        <translation>Mostra a ajuda da Phore Core para receber uma lista com possíveis opções de linha de comando Phore</translation>
+        <source>Show the Atheneum Core help message to get a list with possible Atheneum command-line options</source>
+        <translation>Mostra a ajuda da Atheneum Core para receber uma lista com possíveis opções de linha de comando Atheneum</translation>
     </message>
     <message>
-        <source>Phore Core client</source>
-        <translation>Cliente Core Phore</translation>
+        <source>Atheneum Core client</source>
+        <translation>Cliente Core Atheneum</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -806,8 +806,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (phore.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (phore.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (atheneum.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (atheneum.conf). </translation>
     </message>
 </context>
 <context>
@@ -1083,8 +1083,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Phore address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de Phore</translation>
+        <source>The entered address "%1" is not a valid Atheneum address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de Atheneum</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1129,16 +1129,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Phore Core</source>
-        <translation>Sobre o Phore Core</translation>
+        <source>About Atheneum Core</source>
+        <translation>Sobre o Atheneum Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1172,16 +1172,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to Phore Core.</source>
-        <translation>Bem-vindo ao Phore Core.</translation>
+        <source>Welcome to Atheneum Core.</source>
+        <translation>Bem-vindo ao Atheneum Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Phore Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde Phore Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where Atheneum Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde Atheneum Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>Phore Core will download and store a copy of the Phore block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Phore Core vai baixar e armazenar uma cópia da blockchain Phore. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>Atheneum Core will download and store a copy of the Atheneum block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Atheneum Core vai baixar e armazenar uma cópia da blockchain Atheneum. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1192,8 +1192,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1448,48 +1448,48 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Favor selecionar o nível de privacidade.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PHR</source>
-        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 PHR</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 AEM</source>
+        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 AEM</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PHR</source>
-        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 PHR</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 AEM</source>
+        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 AEM</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 masternodes separados</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PHR to anonymize 10000 PHR</source>
-        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 PHR para anonimizar 10000 PHR</translation>
+        <source>This option is the quickest and will cost about ~0.025 AEM to anonymize 10000 AEM</source>
+        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 AEM para anonimizar 10000 AEM</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PHR to anonymize 10000 PHR</source>
-        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 PHR para anonimizar 10000 PHR</translation>
+        <source>This option is moderately fast and will cost about 0.05 AEM to anonymize 10000 AEM</source>
+        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 AEM para anonimizar 10000 AEM</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta é a opção mais lenta e mais segura. Usando a anonimização máxima vai custar</translation>
     </message>
     <message>
-        <source>0.1 PHR per 10000 PHR you anonymize.</source>
-        <translation>0.1 PHR por 10000 PHR que deixar anônima.</translation>
+        <source>0.1 AEM per 10000 AEM you anonymize.</source>
+        <translation>0.1 AEM por 10000 AEM que deixar anônima.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Phore's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Phore's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Atheneum's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Atheneum's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Phore's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Phore's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Atheneum's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Atheneum's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Phore's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Phore's.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Atheneum's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Atheneum's.</translation>
     </message>
 </context>
 <context>
@@ -1542,8 +1542,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the Phore client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente Phore no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the Atheneum client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente Atheneum no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1562,12 +1562,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Phore after logging in to the system.</source>
-        <translation>Iniciar automaticamente Phore depois de logar no sistema.</translation>
+        <source>Automatically start Atheneum after logging in to the system.</source>
+        <translation>Iniciar automaticamente Atheneum depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Phore on system login</source>
-        <translation>&amp;Iniciar Phore ao logar no sistema</translation>
+        <source>&amp;Start Atheneum on system login</source>
+        <translation>&amp;Iniciar Atheneum ao logar no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1582,18 +1582,18 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Phore.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do Phore.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Atheneum.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do Atheneum.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/phore-project/phore-project-translations</source>
+https://www.transifex.com/atheneum-project/atheneum-project-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/phore-project/phore-project-translations</translation>
+https://www.transifex.com/atheneum-project/atheneum-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the Phore network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede Phore através de um proxy SOCKS5</translation>
+        <source>Connect to the Atheneum network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede Atheneum através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1727,8 +1727,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Phore network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Phore após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Atheneum network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Atheneum após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1816,8 +1816,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Phore network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Phore após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Atheneum network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Atheneum após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>0</source>
@@ -1923,8 +1923,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a Phore address (e.g. %1)</source>
-        <translation>Insira um endereço Phore (e.g. %1)</translation>
+        <source>Enter a Atheneum address (e.g. %1)</source>
+        <translation>Insira um endereço Atheneum (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2173,8 +2173,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the Phore RPC console.</source>
-        <translation>Bem-vindo ao console da Phore RPC</translation>
+        <source>Welcome to the Atheneum RPC console.</source>
+        <translation>Bem-vindo ao console da Atheneum RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2425,8 +2425,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 PHR</source>
-        <translation>0 PHR</translation>
+        <source>0 AEM</source>
+        <translation>0 AEM</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2465,12 +2465,12 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPHRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPHRs in fee,&lt;br /&gt;while "at least" pays 1000 uPHRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uPHRs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uPHRs em taxa,&lt;br /&gt; pagará pelo menos 1000 uPHRs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uAEMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uAEMs in fee,&lt;br /&gt;while "at least" pays 1000 uAEMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uAEMs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uAEMs em taxa,&lt;br /&gt; pagará pelo menos 1000 uAEMs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Phore transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de Phore do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Atheneum transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de Atheneum do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2557,8 +2557,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>fundos anônimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid Phore address</source>
-        <translation>Aviso: endereço Phore inválido</translation>
+        <source>Warning: Invalid Atheneum address</source>
+        <translation>Aviso: endereço Atheneum inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2652,8 +2652,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The Phore address to send the payment to</source>
-        <translation>O endereço Phore para enviar o pagamento</translation>
+        <source>The Atheneum address to send the payment to</source>
+        <translation>O endereço Atheneum para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2715,8 +2715,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Phore Core is shutting down...</source>
-        <translation>Phore Core está desligando...</translation>
+        <source>Atheneum Core is shutting down...</source>
+        <translation>Atheneum Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2734,8 +2734,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>O endereço Phore para assinar a mensagem</translation>
+        <source>The Atheneum address to sign the message with</source>
+        <translation>O endereço Atheneum para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2766,16 +2766,16 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço Phore</translation>
+        <source>Sign the message to prove you own this Atheneum address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço Atheneum</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>O endereço Phore que assinou a mensagem</translation>
+        <source>The Atheneum address the message was signed with</source>
+        <translation>O endereço Atheneum que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço Phore especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified Atheneum address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço Atheneum especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2857,8 +2857,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>Atheneum Core</source>
+        <translation>Atheneum Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2873,8 +2873,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The Phore Core developers</source>
-        <translation>Os desenvolvedores do Phore Core</translation>
+        <source>The Atheneum Core developers</source>
+        <translation>Os desenvolvedores do Atheneum Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3357,8 +3357,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Enviar Moedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 PHR.</source>
-        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 PHR.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 AEM.</source>
+        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 AEM.</translation>
     </message>
 </context>
 <context>
@@ -3401,21 +3401,21 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>ZPhrControlDialog</name>
+    <name>ZAEMControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>phore-core</name>
+    <name>atheneum-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all Phore specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionalidades específicas Phore (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
+        <source>Disable all Atheneum specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas Atheneum (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3430,12 +3430,12 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in PHR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em PHR/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in AEM/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em AEM/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PHR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em PHR/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in AEM/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em AEM/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3458,8 +3458,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>SwiftTX requer inputs com pelo menos 6 confirmações, você precisar aguardar alguns minutos e tentar novamente.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PHR.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 PHR.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 AEM.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 AEM.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3474,8 +3474,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Phore Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core Phore não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Atheneum Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core Atheneum não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3554,8 +3554,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Phore Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do Phore Core</translation>
+        <source>Copyright (C) 2015-%i The Atheneum Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do Atheneum Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3606,8 +3606,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Phore Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da Phore Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Atheneum Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da Atheneum Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3646,8 +3646,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in PHR/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em PHR/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in AEM/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em AEM/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4078,8 +4078,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Phore Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o Phore Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart Atheneum Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o Atheneum Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

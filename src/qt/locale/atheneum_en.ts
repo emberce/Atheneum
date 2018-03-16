@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Phore addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Atheneum addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Phore addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Atheneum addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Phore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
+        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PHR&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AEM&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter a Phore Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Atheneum Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -318,7 +318,7 @@
     </message>
     <message>
         <location line="-355"/>
-        <source>The Phore address to sign the message with</source>
+        <source>The Atheneum address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -360,7 +360,7 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Phore address</source>
+        <source>Sign the message to prove you own this Atheneum address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -391,12 +391,12 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>The Phore address the message was signed with</source>
+        <source>The Atheneum address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+29"/>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
+        <source>Verify the message to ensure it was signed with the specified Atheneum address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Privacy Actions for zPHR</source>
+        <source>Privacy Actions for zAEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -776,17 +776,17 @@
     <message>
         <location line="-413"/>
         <location line="+858"/>
-        <source>Phore Core</source>
+        <source>Atheneum Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-675"/>
-        <source>Send coins to a Phore address</source>
+        <source>Send coins to a Atheneum address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and phore: URIs)</source>
+        <source>Request payments (generates QR codes and atheneum: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -806,27 +806,27 @@
     </message>
     <message>
         <location line="+31"/>
-        <source>&amp;About Phore Core</source>
+        <source>&amp;About Atheneum Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Phore Core</source>
+        <source>Show information about Atheneum Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Modify configuration options for Phore</source>
+        <source>Modify configuration options for Atheneum</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>Sign messages with your Phore addresses to prove you own them</source>
+        <source>Sign messages with your Atheneum addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Phore addresses</source>
+        <source>Verify messages to ensure they were signed with specified Atheneum addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -866,7 +866,7 @@
     </message>
     <message>
         <location line="+10"/>
-        <source>Open a Phore: URI or payment request</source>
+        <source>Open a Atheneum: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -881,17 +881,17 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the Phore Core help message to get a list with possible Phore command-line options</source>
+        <source>Show the Atheneum Core help message to get a list with possible Atheneum command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+204"/>
-        <source>Phore Core client</source>
+        <source>Atheneum Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+197"/>
-        <source>%n active connection(s) to Phore network</source>
+        <source>%n active connection(s) to Atheneum network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1097,7 +1097,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+476"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (phore.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (atheneum.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1461,7 +1461,7 @@ Address: %4
     </message>
     <message>
         <location line="+67"/>
-        <source>The entered address &quot;%1&quot; is not a valid Phore address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Atheneum address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1517,7 +1517,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>Phore Core</source>
+        <source>Atheneum Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1528,7 +1528,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>About Phore Core</source>
+        <source>About Atheneum Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1586,17 +1586,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Phore Core.</source>
+        <source>Welcome to Atheneum Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Phore Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Atheneum Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Phore Core will download and store a copy of the Phore block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Atheneum Core will download and store a copy of the Atheneum block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1611,7 +1611,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+77"/>
-        <source>Phore Core</source>
+        <source>Atheneum Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1787,8 +1787,8 @@ Address: %4
     </message>
     <message>
         <location line="+16"/>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Phore addresses after it matures.
-To Add: enter percentage to give and Phore address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Atheneum addresses after it matures.
+To Add: enter percentage to give and Atheneum address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation type="unfinished"></translation>
@@ -1953,12 +1953,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PHR</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 AEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PHR</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 AEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1968,12 +1968,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 PHR to anonymize 10000 PHR</source>
+        <source>This option is the quickest and will cost about ~0.025 AEM to anonymize 10000 AEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 PHR to anonymize 10000 PHR</source>
+        <source>This option is moderately fast and will cost about 0.05 AEM to anonymize 10000 AEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1983,7 +1983,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 PHR per 10000 PHR you anonymize.</source>
+        <source>0.1 AEM per 10000 AEM you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1995,17 +1995,17 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-27"/>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Phore&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Atheneum&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Phore&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Atheneum&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Phore&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Atheneum&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2081,7 +2081,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the Phore client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Atheneum client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2106,12 +2106,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-176"/>
-        <source>Automatically start Phore after logging in to the system.</source>
+        <source>Automatically start Atheneum after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Phore on system login</source>
+        <source>&amp;Start Atheneum on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2146,13 +2146,13 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Phore.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Atheneum.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/phore-project/phore-project-translations</source>
+https://www.transifex.com/atheneum-project/atheneum-project-translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2162,28 +2162,28 @@ https://www.transifex.com/phore-project/phore-project-translations</source>
     </message>
     <message>
         <location line="-133"/>
-        <source>Percentage of incoming PHR which get automatically converted to zPHR via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming AEM which get automatically converted to zAEM via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zPHR</source>
+        <source>Percentage of autominted zAEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
         <location line="+16"/>
-        <source>Wait with automatic conversion to Zerocoin until enough PHR for this denomination is available</source>
+        <source>Wait with automatic conversion to Zerocoin until enough AEM for this denomination is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zPHR Denomination</source>
+        <source>Preferred Automint zAEM Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+114"/>
-        <source>Connect to the Phore network through a SOCKS5 proxy.</source>
+        <source>Connect to the Atheneum network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2348,7 +2348,7 @@ https://www.transifex.com/phore-project/phore-project-translations</source>
     </message>
     <message>
         <location line="+43"/>
-        <source>PHR Balances</source>
+        <source>AEM Balances</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2387,7 +2387,7 @@ https://www.transifex.com/phore-project/phore-project-translations</source>
     <message>
         <location line="-153"/>
         <location line="+1393"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Phore network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Atheneum network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2449,17 +2449,17 @@ https://www.transifex.com/phore-project/phore-project-translations</source>
     </message>
     <message>
         <location line="+36"/>
-        <source>PHR:</source>
+        <source>AEM:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+35"/>
-        <source>zPHR:</source>
+        <source>zAEM:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Current percentage of zPHR.
+        <source>Current percentage of zAEM.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2472,7 +2472,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="-46"/>
         <location line="+13"/>
-        <source>Locked PHR or Masternode collaterals. These are excluded from zPHR minting.</source>
+        <source>Locked AEM or Masternode collaterals. These are excluded from zAEM minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2481,7 +2481,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+189"/>
         <location line="+31"/>
         <location line="+44"/>
-        <source>0.000 000 00 PHR</source>
+        <source>0.000 000 00 AEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2492,7 +2492,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="+7"/>
         <location line="+10"/>
-        <source>Unlocked PHRs. These can be used for zPHR minting.</source>
+        <source>Unlocked AEMs. These can be used for zAEM minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2509,7 +2509,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+14"/>
         <location line="+104"/>
         <source>Mature: more than 20 confirmation and more than 3 mints of the same denomination after it was minted.
-These zPHR are spendable.</source>
+These zAEM are spendable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2520,7 +2520,7 @@ These zPHR are spendable.</source>
     <message>
         <location line="+23"/>
         <location line="+35"/>
-        <source>All available zPHR, unconfirmed and immature zPHR included.</source>
+        <source>All available zAEM, unconfirmed and immature zAEM included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2550,7 +2550,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+93"/>
-        <source>Current percentage of zPHR.
+        <source>Current percentage of zAEM.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation type="unfinished"></translation>
@@ -2562,13 +2562,13 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     </message>
     <message>
         <location line="+1"/>
-        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in phore.conf.</source>
+        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in atheneum.conf.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>AutoMint is currently disabled.
-To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in phore.conf</source>
+To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in atheneum.conf</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2608,12 +2608,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="-108"/>
-        <source>Cannot start phore: click-to-pay handler</source>
+        <source>Cannot start atheneum: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+114"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Phore address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Atheneum address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2716,12 +2716,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <name>PrivacyDialog</name>
     <message>
         <location filename="../forms/privacydialog.ui" line="+55"/>
-        <source>PHR which were anonymized via Zerocin Protocol</source>
+        <source>AEM which were anonymized via Zerocin Protocol</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Zerocoin PHR (zPHR)</source>
+        <source>Zerocoin AEM (zAEM)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2731,13 +2731,13 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+10"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Phore network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Atheneum network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+52"/>
         <location line="+46"/>
-        <source>Enter an amount of Phr to convert to zPhr</source>
+        <source>Enter an amount of AEM to convert to zAEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2756,7 +2756,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="-349"/>
         <location line="+629"/>
-        <source>zPHR</source>
+        <source>zAEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2771,7 +2771,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+13"/>
-        <source>0.000 000 00 PHR</source>
+        <source>0.000 000 00 AEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2816,12 +2816,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+45"/>
-        <source>zPhr Control</source>
+        <source>zAEM Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>zPhr Selected:</source>
+        <source>zAEM Selected:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2847,7 +2847,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+7"/>
-        <source>Available (mature and spendable) zPHR for spending</source>
+        <source>Available (mature and spendable) zAEM for spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2857,15 +2857,15 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+16"/>
-        <source>Available (mature and spendable) zPHR for spending
+        <source>Available (mature and spendable) zAEM for spending
 
-zPHR are mature when they have more than 20 confirmations AND more than 3 mints of the same denomination after them were minted</source>
+zAEM are mature when they have more than 20 confirmations AND more than 3 mints of the same denomination after them were minted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+417"/>
-        <source>0 zPHR</source>
+        <source>0 zAEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2890,7 +2890,7 @@ zPHR are mature when they have more than 20 confirmations AND more than 3 mints 
     </message>
     <message>
         <location line="+27"/>
-        <source>The Phore address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The Atheneum address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2956,7 +2956,7 @@ zPHR are mature when they have more than 20 confirmations AND more than 3 mints 
     <message>
         <location line="+62"/>
         <location line="+38"/>
-        <source>Total Balance including unconfirmed and immature zPHR</source>
+        <source>Total Balance including unconfirmed and immature zAEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3167,7 +3167,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     <message>
         <location line="+88"/>
         <location line="+111"/>
-        <source>Zerocoin functionality is not enabled on the Phore network yet.</source>
+        <source>Zerocoin functionality is not enabled on the Atheneum network yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3192,7 +3192,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+0"/>
-        <source> zPHR in </source>
+        <source> zAEM in </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3234,7 +3234,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Invalid Phore Address</source>
+        <source>Invalid Atheneum Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3304,7 +3304,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+15"/>
-        <source>zPhr Spend #: </source>
+        <source>zAEM Spend #: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3334,7 +3334,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>zPhr Mint</source>
+        <source>zAEM Mint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3362,7 +3362,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+113"/>
-        <source>Enter a Phore address (e.g. %1)</source>
+        <source>Enter a Atheneum address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3557,7 +3557,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+79"/>
-        <source>Open the Phore debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Atheneum debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3784,7 +3784,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-36"/>
-        <source>Welcome to the Phore RPC console.</source>
+        <source>Welcome to the Atheneum RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3900,12 +3900,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-37"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Phore network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Atheneum network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Phore network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Atheneum network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4188,7 +4188,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+7"/>
-        <source>0 PHR</source>
+        <source>0 AEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4253,18 +4253,18 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+772"/>
-        <source>If the custom fee is set to 1000 uPHRs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPHRs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uPHRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uAEMs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uAEMs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uAEMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uPHRs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPHRs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uPHRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uAEMs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uAEMs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uAEMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Phore transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Atheneum transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4324,7 +4324,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+35"/>
-        <source>Anonymized PHR</source>
+        <source>Anonymized AEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4400,7 +4400,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+622"/>
-        <source>Warning: Invalid Phore address</source>
+        <source>Warning: Invalid Atheneum address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4539,7 +4539,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+18"/>
-        <source>The Phore address to send the payment to</source>
+        <source>The Atheneum address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4593,7 +4593,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the Phore: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Phore network.</source>
+        <source>A message that was attached to the Atheneum: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Atheneum network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4628,7 +4628,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+75"/>
-        <source>Phore Core is shutting down...</source>
+        <source>Atheneum Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4656,7 +4656,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+18"/>
-        <source>The Phore address to sign the message with</source>
+        <source>The Atheneum address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4698,17 +4698,17 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Phore address</source>
+        <source>Sign the message to prove you own this Atheneum address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+106"/>
-        <source>The Phore address the message was signed with</source>
+        <source>The Atheneum address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
+        <source>Verify the message to ensure it was signed with the specified Atheneum address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4823,7 +4823,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>Phore Core</source>
+        <source>Atheneum Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4843,7 +4843,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>The Phore Core developers</source>
+        <source>The Atheneum Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5270,27 +5270,27 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted Phr to zPhr</source>
+        <source>Converted AEM to zAEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Spent zPhr</source>
+        <source>Spent zAEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Received Phr from zPhr</source>
+        <source>Received AEM from zAEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Minted Change as zPhr from zPhr Spend</source>
+        <source>Minted Change as zAEM from zAEM Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted zPhr to Phr</source>
+        <source>Converted zAEM to AEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5300,7 +5300,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+22"/>
-        <source>zPhr Accumulator</source>
+        <source>zAEM Accumulator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5439,7 +5439,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Received Phr from zPhr</source>
+        <source>Received AEM from zAEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5454,7 +5454,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Zerocoin Spend, Change in zPhr</source>
+        <source>Zerocoin Spend, Change in zAEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5611,7 +5611,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 PHR.</source>
+        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 AEM.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5664,10 +5664,10 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZPhrControlDialog</name>
+    <name>ZAEMControlDialog</name>
     <message>
         <location filename="../forms/zphrcontroldialog.ui" line="+20"/>
-        <source>Select zPhr to Spend</source>
+        <source>Select zAEM to Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5683,7 +5683,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-7"/>
-        <source>zPhr</source>
+        <source>zAEM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5698,9 +5698,9 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>phore-core</name>
+    <name>atheneum-core</name>
     <message>
-        <location filename="../phorestrings.cpp" line="+15"/>
+        <location filename="../atheneumstrings.cpp" line="+15"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -5736,7 +5736,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Cannot obtain a lock on data directory %s. Phore Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Atheneum Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5761,7 +5761,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Disable all Phore specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all Atheneum specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5811,12 +5811,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in PHR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in AEM/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in PHR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in AEM/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5941,22 +5941,22 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+4"/>
-        <source>To use phored, or the -server option to phore-qt, you must set an rpcpassword in the configuration file:
+        <source>To use atheneumd, or the -server option to atheneum-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=phorerpc
+rpcuser=atheneumrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Atheneum Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. Phore Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Atheneum Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5966,12 +5966,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PHR.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 AEM.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PHR.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 AEM.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5991,7 +5991,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Phore Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Atheneum Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6186,7 +6186,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2015-%i The Phore Core Developers</source>
+        <source>Copyright (C) 2015-%i The Atheneum Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6286,7 +6286,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Phore Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Atheneum Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6351,7 +6351,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+2"/>
-        <source>Fee (in PHR/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in AEM/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6426,7 +6426,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Phore Core is shutting down.</source>
+        <source>Initialization sanity check failed. Atheneum Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6538,7 +6538,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+44"/>
-        <source>Enable automatic wallet backups triggered after each zPhr minting (0-1, default: %u)</source>
+        <source>Enable automatic wallet backups triggered after each zAEM minting (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7318,7 +7318,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Phore Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Atheneum Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

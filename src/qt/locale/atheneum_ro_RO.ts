@@ -183,9 +183,9 @@
     </message>
     </context>
 <context>
-    <name>ZPhrControlDialog</name>
+    <name>ZAEMControlDialog</name>
     </context>
 <context>
-    <name>phore-core</name>
+    <name>atheneum-core</name>
     </context>
 </TS>
