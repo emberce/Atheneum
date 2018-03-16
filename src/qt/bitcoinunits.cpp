@@ -1,6 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2018 The Atheneum developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(PHR);
-    unitlist.append(mPHR);
-    unitlist.append(uPHR);
+    unitlist.append(AEM);
+    unitlist.append(mAEM);
+    unitlist.append(uAEM);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case PHR:
-    case mPHR:
-    case uPHR:
+    case AEM:
+    case mAEM:
+    case uAEM:
         return true;
     default:
         return false;
@@ -40,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case PHR:
-        return QString("phore");
-    case mPHR:
-        return QString("mphore");
-    case uPHR:
-        return QString::fromUtf8("uphore");
+    case AEM:
+        return QString("atheneum");
+    case mAEM:
+        return QString("matheneum");
+    case uAEM:
+        return QString::fromUtf8("uatheneum");
     default:
         return QString("???");
     }
@@ -55,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case PHR:
-            return QString("PHR");
-        case mPHR:
-            return QString("mPHR");
-        case uPHR:
-            return QString::fromUtf8("μPHR");
+        case AEM:
+            return QString("AEM");
+        case mAEM:
+            return QString("mAEM");
+        case uAEM:
+            return QString::fromUtf8("μAEM");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case PHR:
-            return QString("tPHR");
-        case mPHR:
-            return QString("mtPHR");
-        case uPHR:
-            return QString::fromUtf8("μtPHR");
+        case AEM:
+            return QString("tAEM");
+        case mAEM:
+            return QString("mtAEM");
+        case uAEM:
+            return QString::fromUtf8("μtAEM");
         default:
             return QString("???");
         }
@@ -82,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case PHR:
-            return QString("PHR");
-        case mPHR:
-            return QString("Milli-PHR (1 / 1" THIN_SP_UTF8 "000)");
-        case uPHR:
-            return QString("Micro-PHR (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case AEM:
+            return QString("AEM");
+        case mAEM:
+            return QString("Milli-AEM (1 / 1" THIN_SP_UTF8 "000)");
+        case uAEM:
+            return QString("Micro-AEM (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case PHR:
-            return QString("TestPHRs");
-        case mPHR:
-            return QString("Milli-TestPHR (1 / 1" THIN_SP_UTF8 "000)");
-        case uPHR:
-            return QString("Micro-TestPHR (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case AEM:
+            return QString("TestAEMs");
+        case mAEM:
+            return QString("Milli-TestAEM (1 / 1" THIN_SP_UTF8 "000)");
+        case uAEM:
+            return QString("Micro-TestAEM (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -108,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case PHR:
+    case AEM:
         return 100000000;
-    case mPHR:
+    case mAEM:
         return 100000;
-    case uPHR:
+    case uAEM:
         return 100;
     default:
         return 100000000;
@@ -122,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case PHR:
+    case AEM:
         return 8;
-    case mPHR:
+    case mAEM:
         return 5;
-    case uPHR:
+    case uAEM:
         return 2;
     default:
         return 0;
