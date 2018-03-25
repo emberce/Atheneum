@@ -164,8 +164,13 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/qt/locale/phore_zh_TW.ts
+        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
+        <translation>Atheneum 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 PHR 幣被可疑軟體或病毒偷走的風險.</translation>
+=======
         <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
         <translation>Atheneum 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 AEM 幣被可疑軟體或病毒偷走的風險.</translation>
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_zh_TW.ts
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>

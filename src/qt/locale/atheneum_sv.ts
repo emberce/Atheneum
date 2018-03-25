@@ -160,8 +160,13 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/qt/locale/phore_sv.ts
+        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
+        <translation>Atheneum kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina PHRs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+=======
         <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
         <translation>Atheneum kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina AEMs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_sv.ts
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>

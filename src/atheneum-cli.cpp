@@ -3,7 +3,11 @@
 // Copyright (c) 2009-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017 The Phore developers
+<<<<<<< HEAD:src/phore-cli.cpp
+// Copyright (c) 2018 The Atheneum developers
+=======
 // Copyright (c) 2018 The Atheneum Developers
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/atheneum-cli.cpp
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 

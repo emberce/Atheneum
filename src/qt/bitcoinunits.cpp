@@ -41,11 +41,19 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
+<<<<<<< HEAD
+    case PHR:
+        return QString("atheneum");
+    case mPHR:
+        return QString("matheneum");
+    case uPHR:
+=======
     case AEM:
         return QString("atheneum");
     case mAEM:
         return QString("matheneum");
     case uAEM:
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715
         return QString::fromUtf8("uatheneum");
     default:
         return QString("???");

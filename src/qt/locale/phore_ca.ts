@@ -168,8 +168,13 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
+<<<<<<< HEAD
+        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
+        <translation>Atheneum es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus PHR de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+=======
         <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
         <translation>Atheneum es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus AEM de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -1984,7 +1989,11 @@
     </message>
     </context>
 <context>
+<<<<<<< HEAD
+    <name>Atheneum-core</name>
+=======
     <name>atheneum-core</name>
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>No es pot mesclar mentre s'està sincronitzant.</translation>

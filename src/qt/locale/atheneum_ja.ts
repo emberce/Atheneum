@@ -178,8 +178,13 @@
         <translation>ウォレットの再暗号化を行いました</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/qt/locale/phore_ja.ts
+        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
+        <translation>暗号化を完了するためウォレットを閉じます。暗号化されたため、パスワードがなければ攻撃者はPHRを送金できません。</translation>
+=======
         <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
         <translation>暗号化を完了するためウォレットを閉じます。暗号化されたため、パスワードがなければ攻撃者はAEMを送金できません。</translation>
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_ja.ts
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>

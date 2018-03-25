@@ -176,8 +176,13 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/qt/locale/phore_es.ts
+        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
+        <translation>Atheneum se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus PHRs no sean robados mediante malware de su ordenador.</translation>
+=======
         <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
         <translation>Atheneum se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus AEMs no sean robados mediante malware de su ordenador.</translation>
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_es.ts
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>

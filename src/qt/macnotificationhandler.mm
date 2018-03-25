@@ -16,7 +16,11 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
+<<<<<<< HEAD
+        return @"io.atheneumchain.Atheneum-Qt";
+=======
         return @"io.atheneum.Atheneum-Qt";
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715
     } else {
         return [self __bundleIdentifier];
     }

@@ -150,8 +150,13 @@ Value preparebudget(const Array& params, bool fHelp)
             "\nResult:\n"
             "\"xxxx\"       (string) proposal fee hash (if successful) or error message (if failed)\n"
             "\nExamples:\n" +
+<<<<<<< HEAD
+            HelpExampleCli("preparebudget", "\"test-proposal\" \"https://forum.atheneumchain.io/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500") +
+            HelpExampleRpc("preparebudget", "\"test-proposal\" \"https://forum.atheneumchain.io/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500"));
+=======
             HelpExampleCli("preparebudget", "\"test-proposal\" \"https://forum.atheneum.org/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500") +
             HelpExampleRpc("preparebudget", "\"test-proposal\" \"https://forum.atheneum.org/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500"));
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715
 
     if (pwalletMain->IsLocked())
         throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passphrase with walletpassphrase first.");
@@ -244,8 +249,13 @@ Value submitbudget(const Array& params, bool fHelp)
             "\nResult:\n"
             "\"xxxx\"       (string) proposal hash (if successful) or error message (if failed)\n"
             "\nExamples:\n" +
+<<<<<<< HEAD
+            HelpExampleCli("submitbudget", "\"test-proposal\" \"https://forum.atheneumchain.io/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500") +
+            HelpExampleRpc("submitbudget", "\"test-proposal\" \"https://forum.atheneumchain.io/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500"));
+=======
             HelpExampleCli("submitbudget", "\"test-proposal\" \"https://forum.atheneum.org/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500") +
             HelpExampleRpc("submitbudget", "\"test-proposal\" \"https://forum.atheneum.org/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500"));
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715
 
     // Check these inputs the same way we check the vote commands:
     // **********************************************************

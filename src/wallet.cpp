@@ -4045,7 +4045,11 @@ bool CWallet::CreateZerocoinMintTransaction(const CAmount nValue, CMutableTransa
             reservekey->ReturnKey();
     }
 
+<<<<<<< HEAD
+    // Sign if these are atheneum outputs - NOTE that zPHR outputs are signed later in SoK
+=======
     // Sign if these are atheneum outputs - NOTE that zAEM outputs are signed later in SoK
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715
     if (!isZCSpendChange) {
         int nIn = 0;
         for (const std::pair<const CWalletTx*, unsigned int>& coin : setCoins) {

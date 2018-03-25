@@ -176,7 +176,11 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/qt/locale/phore_da.ts
+        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
+=======
         <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_da.ts
         <translation>Atheneum vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
@@ -606,7 +610,11 @@
         <translation>Send mønter til en Atheneum adresse</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/qt/locale/phore_da.ts
+        <source>Request payments (generates QR codes and Atheneum: URIs)</source>
+=======
         <source>Request payments (generates QR codes and atheneum: URIs)</source>
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_da.ts
         <translation>Anmod om betaling (genrerer QR kode og Atheneum URL)</translation>
     </message>
     <message>
@@ -3768,7 +3776,11 @@ https://www.transifex.com/atheneum-project/atheneum-project-translations</transl
     </message>
     </context>
 <context>
+<<<<<<< HEAD:src/qt/locale/phore_da.ts
+    <name>Atheneum-core</name>
+=======
     <name>atheneum-core</name>
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_da.ts
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = beholdtx metadata. For eksempel information om kontoejer og betalngsanmodninger, 2 = drop TX metadata)</translation>
@@ -4157,6 +4169,13 @@ For eksempel: alertnotify=Echo %% | mail - s "Atheneum ALARM!" e-mail@administra
     <message>
         <source>Copyright (C) 2015-%i The Atheneum Core Developers</source>
         <translation>Copyright (C) 2015-%i The Atheneum Core Developers</translation>
+<<<<<<< HEAD:src/qt/locale/phore_da.ts
+    </message>
+        <message>
+        <source>Copyright (C) 2018-%i The Atheneum Core Developers</source>
+        <translation>Copyright (C) 2018-%i The Atheneum Core Developers</translation>
+=======
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_da.ts
     </message>
     <message>
         <source>Corrupted block database detected</source>

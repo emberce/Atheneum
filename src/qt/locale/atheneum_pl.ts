@@ -583,7 +583,11 @@
     </message>
     <message>
         <source>Open a Atheneum: URI or payment request</source>
+<<<<<<< HEAD:src/qt/locale/phore_pl.ts
+        <translation>OtwórzPHRX: URI i żądanie zapłaty</translation>
+=======
         <translation>OtwórzAEMX: URI i żądanie zapłaty</translation>
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_pl.ts
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>

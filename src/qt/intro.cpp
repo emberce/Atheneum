@@ -185,7 +185,11 @@ bool Intro::pickDataDirectory()
     }
     /* Only override -datadir if different from the default, to make it possible to
      * override -datadir in the atheneum.conf file in the default data directory
+<<<<<<< HEAD
+     * (to be consistent with atheneumd behavior)
+=======
      * (to be consistent with phored behavior)
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715
      */
     if (dataDir != getDefaultDataDirectory())
         SoftSetArg("-datadir", GUIUtil::qstringToBoostPath(dataDir).string()); // use OS locale for path setting

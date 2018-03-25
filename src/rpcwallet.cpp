@@ -1738,7 +1738,11 @@ Value encryptwallet(const Array& params, bool fHelp)
             "\nExamples:\n"
             "\nEncrypt you wallet\n" +
             HelpExampleCli("encryptwallet", "\"my pass phrase\"") +
+<<<<<<< HEAD
+            "\nNow set the passphrase to use the wallet, such as for signing or sending PHRs\n" + HelpExampleCli("walletpassphrase", "\"my pass phrase\"") +
+=======
             "\nNow set the passphrase to use the wallet, such as for signing or sending AEMs\n" + HelpExampleCli("walletpassphrase", "\"my pass phrase\"") +
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715
             "\nNow we can so something like sign\n" + HelpExampleCli("signmessage", "\"atheneumaddress\" \"test message\"") +
             "\nNow lock the wallet again by removing the passphrase\n" + HelpExampleCli("walletlock", "") +
             "\nAs a json rpc call\n" + HelpExampleRpc("encryptwallet", "\"my pass phrase\""));

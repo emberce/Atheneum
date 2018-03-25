@@ -221,7 +221,11 @@
     </message>
     <message>
         <location line="+9"/>
+<<<<<<< HEAD:src/qt/locale/phore_en.ts
+        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
+=======
         <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>

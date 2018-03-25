@@ -176,8 +176,13 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/qt/locale/phore_cs.ts
+        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
+        <translation>Atheneum se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše PHRy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+=======
         <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
         <translation>Atheneum se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše AEMy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_cs.ts
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -606,8 +611,13 @@
         <translation>Odeslat platbuna Atheneum adresu</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/qt/locale/phore_cs.ts
+        <source>Request payments (generates QR codes and Atheneum: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a Atheneum: URIs)</translation>
+=======
         <source>Request payments (generates QR codes and atheneum: URIs)</source>
         <translation>Vyžádat platbu (generování QK kódu a atheneum: URIs)</translation>
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_cs.ts
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -2376,7 +2386,11 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
+<<<<<<< HEAD:src/qt/locale/phore_cs.ts
+    <name>Atheneum-core</name>
+=======
     <name>atheneum-core</name>
+>>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_cs.ts
     <message>
         <source>Error</source>
         <translation>Chyba</translation>
