@@ -2,6 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2018 The Atheneum Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -80,28 +81,28 @@ enum AvailableCoinsType {
     ALL_COINS = 1,
     ONLY_DENOMINATED = 2,
     ONLY_NOT10000IFMN = 3,
-    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 PHR at the same time
+    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 AEM at the same time
     ONLY_10000 = 5,                        // find masternode outputs including locked ones (use with caution)
     STAKABLE_COINS = 6                          // UTXO's that are valid for staking
 };
 
-// Possible states for zPHR send
+// Possible states for zAEM send
 enum ZerocoinSpendStatus {
-    ZPHR_SPEND_OKAY = 0,                            // No error
-    ZPHR_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
-    ZPHR_WALLET_LOCKED = 2,                         // Wallet was locked
-    ZPHR_COMMIT_FAILED = 3,                         // Commit failed, reset status
-    ZPHR_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
-    ZPHR_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
-    ZPHR_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
-    ZPHR_TRX_CREATE = 7,                            // Everything related to create the transaction
-    ZPHR_TRX_CHANGE = 8,                            // Everything related to transaction change
-    ZPHR_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
-    ZPHR_INVALID_COIN = 10,                         // Selected mint coin is not valid
-    ZPHR_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
-    ZPHR_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
-    ZPHR_BAD_SERIALIZATION = 13,                    // Transaction verification failed
-    ZPHR_SPENT_USED_ZPHR = 14                       // Coin has already been spend
+    ZAEM_SPEND_OKAY = 0,                            // No error
+    ZAEM_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
+    ZAEM_WALLET_LOCKED = 2,                         // Wallet was locked
+    ZAEM_COMMIT_FAILED = 3,                         // Commit failed, reset status
+    ZAEM_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
+    ZAEM_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
+    ZAEM_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
+    ZAEM_TRX_CREATE = 7,                            // Everything related to create the transaction
+    ZAEM_TRX_CHANGE = 8,                            // Everything related to transaction change
+    ZAEM_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
+    ZAEM_INVALID_COIN = 10,                         // Selected mint coin is not valid
+    ZAEM_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
+    ZAEM_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
+    ZAEM_BAD_SERIALIZATION = 13,                    // Transaction verification failed
+    ZAEM_SPENT_USED_ZAEM = 14                       // Coin has already been spend
 };
 
 struct CompactTallyItem {
@@ -206,7 +207,7 @@ public:
     std::string ResetMintZerocoin(bool fExtendedSearch);
     std::string ResetSpentZerocoin();
     void ReconsiderZerocoins(std::list<CZerocoinMint>& listMintsRestored);
-    void ZPhrBackupWallet();
+    void ZAEMBackupWallet();
 
     /** Zerocin entry changed.
     * @note called with lock cs_wallet held.
@@ -309,7 +310,7 @@ public:
         return fEnableZeromint;
     }
 
-    void setZPhrAutoBackups(bool fEnabled)
+    void setZAEMAutoBackups(bool fEnabled)
     {
         fBackupMints = fEnabled;
     }
