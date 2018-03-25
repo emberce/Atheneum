@@ -69,7 +69,7 @@ static const Checkpoints::CCheckpointData data = {
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-    boost::assign::map_list_of(0, uint256("0x2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf"));
+    boost::assign::map_list_of(0, uint256("0xe2b4743e2bdf3969037d254a57264460069dc6a364047dff278badeca8523dc3"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1504595227,
@@ -77,7 +77,7 @@ static const Checkpoints::CCheckpointData dataTestnet = {
     250};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
-    boost::assign::map_list_of(0, uint256("0x2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf"));
+    boost::assign::map_list_of(0, uint256("0xe2b4743e2bdf3969037d254a57264460069dc6a364047dff278badeca8523dc3"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
     1504595227,
@@ -127,12 +127,12 @@ public:
         /** Height or Time Based Activations **/
         nLastPOWBlock = 200;
         nModifierUpdateBlock = 999999999;
-        nZerocoinStartHeight = 90000;
-        nBlockEnforceSerialRange = 90003; //Enforce serial range starting this block
-        nBlockRecalculateAccumulators = 90005; //Trigger a recalculation of accumulators
-        nBlockFirstFraudulent = 90002; //First block that bad serials emerged
-        nBlockLastGoodCheckpoint = 90005; //Last valid accumulator checkpoint
-        nZerocoinStartTime = 1510734300; // October 17, 2017 4:30:00 AM
+        nZerocoinStartHeight = 9000;
+        nBlockEnforceSerialRange = 9003; //Enforce serial range starting this block
+        nBlockRecalculateAccumulators = 9005; //Trigger a recalculation of accumulators
+        nBlockFirstFraudulent = 9002; //First block that bad serials emerged
+        nBlockLastGoodCheckpoint = 9005; //Last valid accumulator checkpoint
+        nZerocoinStartTime = 1520978800; // 
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -144,7 +144,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "12 September 2017";
+        const char* pszTimestamp = "13 March 2018: U.S. State Of Wyoming Defines Cryptocurrency 'Utility Tokens' As New Asset Class";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -153,14 +153,19 @@ public:
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
-        genesis.nVersion = 1;
-        genesis.nTime = 1505224800;
+        genesis.nVersion = 5;
+        genesis.nTime = 1520978807;
         genesis.nBits = 0x207fffff;;
-        genesis.nNonce = 12345;
+        genesis.nNonce = 0;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf"));
-        assert(genesis.hashMerkleRoot == uint256("0x894177137a45952cfed89dd395e7fc85208a53548f34defc7c1a85cb0736b3a3"));
+
+        printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+        printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
+        printf("genesis.nNonce = %u\n", genesis.nNonce);
+
+        assert(hashGenesisBlock == uint256("0xbf58448a5ecb734d6924cb0fa02b754de0fe4298455b9a8a1eb971c82c63c69a"));
+        assert(genesis.hashMerkleRoot == uint256("0x083aa5204809b885cac29263c6374c9b2bbd7718211f8e595c5f94ed4484f5ed"));
 
         vSeeds.push_back(CDNSSeedData("0", "dns0.atheneumchain.io"));
         vSeeds.push_back(CDNSSeedData("1", "dns1.atheneumchain.io"));
@@ -196,7 +201,7 @@ public:
         nPoolMaxTransactions = 3;
         strSporkKey = "04659d53bd8f7ad9d34a17281febedac754e5a6eb136142d3a9c6c0ea21b6ed7498ceb3d872eed00ae755f7aeadaeb1d9ab5e1a8f1e7efcd0ddcb39d4623c12790";
         strObfuscationPoolDummyAddress = "PCYiHgGJJ6xGHqivmdZrYjRnhaYf6AJ2Mp";
-        nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
+        nStartMasternodePayments = 1520989680; //
 
         /** Zerocoin */
         zerocoinModulus = "25195908475657893494027183240048398571429282126204032027777137836043662020707595556264018525880784"
@@ -251,11 +256,14 @@ public:
         nZerocoinStartHeight = 201576;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1505224800;
-        genesis.nNonce = 12345;
+        genesis.nTime = 1520989680;
+        genesis.nNonce = 0;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf")); // We will change this later after rebrand to Atheneum
+        printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+        printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
+        printf("genesis.nNonce = %u\n", genesis.nNonce);
+        assert(hashGenesisBlock == uint256("0x15b75226b382a97fb7db004d4e5e7252f358fa5a0c15fd3a5c48e124cf2f98a9")); // We will change this later after rebrand to Atheneum
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -317,13 +325,13 @@ public:
         nTargetTimespan = 24 * 60 * 60; // Atheneum: 1 day
         nTargetSpacing = 1 * 60;        // Atheneum: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1505224800;
+        genesis.nTime = 1520989680;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 12345;
+        genesis.nNonce = 0;
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 11773;
-        assert(hashGenesisBlock == uint256("0x2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf"));
+        assert(hashGenesisBlock == uint256("0x15b75226b382a97fb7db004d4e5e7252f358fa5a0c15fd3a5c48e124cf2f98a9"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
