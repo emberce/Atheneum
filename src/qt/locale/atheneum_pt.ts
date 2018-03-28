@@ -176,13 +176,8 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/phore_pt.ts
-        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Atheneum encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas PHRs contra roubo por malware infectando seu computador.</translation>
-=======
         <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
         <translation>Atheneum encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas AEMs contra roubo por malware infectando seu computador.</translation>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_pt.ts
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>

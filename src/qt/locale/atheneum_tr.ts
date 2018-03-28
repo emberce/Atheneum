@@ -176,13 +176,8 @@
         <translation>cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/phore_tr.ts
-        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Atheneum şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, PHR'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
-=======
         <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
         <translation>Atheneum şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, AEM'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_tr.ts
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>

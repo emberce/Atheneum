@@ -40,11 +40,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle* networkStyle) 
     QString copyrightTextDash = QChar(0xA9) + QString(" 2014-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Dash Core developers"));
     QString copyrightTextPIVX = QChar(0xA9) + QString(" 2015-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The PIVX Core developers"));
     QString copyrightTextPhore = QChar(0xA9) + QString(" 2017-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Phore Core developers"));
-<<<<<<< HEAD
-    QString copyrightTextAtheneum = QChar(0xA9) + QString(" 2018-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Atheneum Core developers"));    
-=======
     QString copyrightTextAtheneum = QChar(0xA9) + QString(" 2018-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Atheneum Core developers"));
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715
     QString titleAddText = networkStyle->getTitleAddText();
 
     QString font = QApplication::font().toString();
@@ -78,11 +74,8 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle* networkStyle) 
     pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 12, copyrightTextDash);
     pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 24, copyrightTextPIVX);
     pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 36, copyrightTextPhore);
-<<<<<<< HEAD
-    pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 48, copyrightTextAtheneum);    
-=======
     pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 48, copyrightTextAtheneum);
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715
+
 
     // draw additional text if special network
     if (!titleAddText.isEmpty()) {

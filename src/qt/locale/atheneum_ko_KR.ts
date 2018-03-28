@@ -176,13 +176,8 @@
         <translation>지갑 암호화 확인</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/phore_ko_KR.ts
-        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Atheneum는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 PHRs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
-=======
         <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
         <translation>Atheneum는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 AEMs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_ko_KR.ts
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -2186,11 +2181,7 @@ https://www.transifex.com/atheneum-project/atheneum-project-translations</transl
     </message>
     <message>
         <source>The Atheneum address to send the payment to. Creates local payment to yourself when empty.</source>
-<<<<<<< HEAD:src/qt/locale/phore_ko_KR.ts
-        <translation>PHR를 전송할 Atheneum 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
-=======
         <translation>AEM를 전송할 Atheneum 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_ko_KR.ts
     </message>
     <message>
         <source>Choose previously used address</source>

@@ -172,13 +172,8 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/phore_fi.ts
-        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Atheneum sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella PHRien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
-=======
         <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
         <translation>Atheneum sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella AEMien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_fi.ts
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -1140,19 +1135,11 @@ Please check the address and try again.</source>
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/phore_fi.ts
-        <source>Use 2 separate masternodes to mix funds up to 10000 PHR</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 Atheneum</translation>
-    </message>
-    <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PHR</source>
-=======
         <source>Use 2 separate masternodes to mix funds up to 10000 AEM</source>
         <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 Atheneum</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 10000 AEM</source>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_fi.ts
         <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 Atheneum</translation>
     </message>
     <message>
@@ -1160,19 +1147,11 @@ Please check the address and try again.</source>
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/phore_fi.ts
-        <source>This option is the quickest and will cost about ~0.025 PHR to anonymize 10000 PHR</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 PHR anonymoidaksesi 10000 Atheneum</translation>
-    </message>
-    <message>
-        <source>This option is moderately fast and will cost about 0.05 PHR to anonymize 10000 PHR</source>
-=======
         <source>This option is the quickest and will cost about ~0.025 AEM to anonymize 10000 AEM</source>
         <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 AEM anonymoidaksesi 10000 Atheneum</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 AEM to anonymize 10000 AEM</source>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_fi.ts
         <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 Atheneum anonymoidaksesi 10000 Atheneum</translation>
     </message>
     <message>
@@ -1180,11 +1159,7 @@ Please check the address and try again.</source>
         <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/phore_fi.ts
-        <source>0.1 PHR per 10000 PHR you anonymize.</source>
-=======
         <source>0.1 AEM per 10000 AEM you anonymize.</source>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_fi.ts
         <translation>0.1 per 10000 Atheneum, jotka anonymisoit.</translation>
     </message>
     <message>

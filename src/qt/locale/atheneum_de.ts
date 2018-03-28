@@ -176,13 +176,8 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/phore_de.ts
-        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer PHRs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
-=======
         <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
         <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer AEMs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_de.ts
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -615,13 +610,8 @@
         <translation>An eine Atheneum-Adresse überweisen</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/phore_de.ts
-        <source>Request payments (generates QR codes and atheneum: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und atheneum: URIs)</translation>
-=======
         <source>Request payments (generates QR codes and theneum: URIs)</source>
         <translation>Zahlung anfordern (QR-Code Generierung und theneum: URIs)</translation>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_de.ts
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -858,13 +848,8 @@ Adresse: %4</translation>
         <translation>TextEtikett</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/phore_de.ts
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (atheneum.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "atheneum.conf" Konfigurationsdatei hinzufügen.</translation>
-=======
         <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (theneum.conf).</source>
         <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "theneum.conf" Konfigurationsdatei hinzufügen.</translation>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_de.ts
     </message>
 </context>
 <context>
@@ -1713,15 +1698,9 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-<<<<<<< HEAD:src/qt/locale/phore_de.ts
-https://www.transifex.com/atheneum-project/atheneum-project-translations</source>
-        <translation>Sprache fehlt oder ist unvollständig? Helfe mit und trage zur Übersetzung bei unter:
-https://www.transifex.com/atheneum-project/atheneum-project-translations</translation>
-=======
-https://www.transifex.com/theneum-project/theneum-project-translations</source>
+https://www.transifex.com/atheneum-project/theneum-project-translations</source>
         <translation>Sprache fehlt oder ist unvollständig? Helfe mit und trage zur Übersetzung bei unter:
 https://www.transifex.com/theneum-project/theneum-project-translations</translation>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_de.ts
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1990,11 +1969,7 @@ https://www.transifex.com/theneum-project/theneum-project-translations</translat
         <translation>Zahlungsaufforderungadresse %1</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/phore_de.ts
-        <source>Cannot start atheneum: click-to-pay handler</source>
-=======
         <source>Cannot start theneum: click-to-pay handler</source>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_de.ts
         <translation>Kann Atheneum nicht starten: click-to-pay Handler</translation>
     </message>
     <message>
@@ -4318,11 +4293,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
 </context>
 <context>
-<<<<<<< HEAD:src/qt/locale/phore_de.ts
-    <name>atheneum-core</name>
-=======
     <name>theneum-core</name>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_de.ts
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = behalte Tx-Meta-Daten z.B. Betrag, Besitzer und Zahlungsanforderungsinformationen, 2 = verwerfe Tx-Meta-Daten)</translation>
@@ -4492,17 +4463,10 @@ Bitte haben Sie Geduld...</translation>
         <translation>Dieses Produkt beinhaltet Software, die vom OpenSSL Projekt für die Nutzung im OpenSSL Toolkit &lt;https://www.openssl.org/&gt; entwickelt wurde. Desweiteren kryptografische Software , die von Eric Young, und UPnP Software, die von Thomas Bernard, geschrieben wurde.</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/phore_de.ts
-        <source>To use atheneumd, or the -server option to atheneum-qt, you must set an rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=atheneumrpc
-=======
         <source>To use theneumd, or the -server option to theneum-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=theneumrpc
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_de.ts
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -4510,17 +4474,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Atheneum Alert" admin@foo.com
 </source>
-<<<<<<< HEAD:src/qt/locale/phore_de.ts
-        <translation>Um atheneumd oder die -server option in atheneum-qt zu nutzen, muss ein RPC-Passwort mittels rpcpassword in der Konfigurationsdatei gestzt werden:
-%s
-Es wird empfohlen das folgende zufällige Passwort zu nutzen:
-rpcuser=atheneumrpc
-=======
         <translation>Um theneumd oder die -server option in theneum-qt zu nutzen, muss ein RPC-Passwort mittels rpcpassword in der Konfigurationsdatei gestzt werden:
 %s
 Es wird empfohlen das folgende zufällige Passwort zu nutzen:
 rpcuser=theneumrpc
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_de.ts
 rpcpassword=%s
 (Sie müssen sich das Passwort nicht merken)
 User-Name und Passwort MÜSSEN NICHT die oben genannten sein.

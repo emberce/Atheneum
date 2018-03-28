@@ -1,11 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-<<<<<<< HEAD
 // Copyright (c) 2017 The Phore developers
-=======
-// Copyright (c) 2017 The atheneum developers
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715
 // Copyright (c) 2018 The Atheneum developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.

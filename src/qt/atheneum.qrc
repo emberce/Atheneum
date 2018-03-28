@@ -39,11 +39,7 @@
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
         <file alias="unit_atheneum">res/icons/unit_atheneum.png</file>
-<<<<<<< HEAD:src/qt/phore.qrc
-        <file alias="unit_mpatheneum">res/icons/unit_matheneum.png</file>
-=======
         <file alias="unit_matheneum">res/icons/unit_matheneum.png</file>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/atheneum.qrc
         <file alias="unit_uatheneum">res/icons/unit_uatheneum.png</file>
         <file alias="unit_tatheneum">res/icons/unit_tatheneum.png</file>
         <file alias="unit_tmatheneum">res/icons/unit_tmatheneum.png</file>

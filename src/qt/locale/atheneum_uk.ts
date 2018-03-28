@@ -176,13 +176,8 @@
         <translation>Підтвердження шифрування гаманця</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/phore_uk.ts
-        <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Atheneum зараз закриється, щоб завершити процес шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші PHR'и від крадіжки зловмисним програмним забезпеченням, що заражає ваш комп'ютер.</translation>
-=======
         <source>Atheneum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AEMs from being stolen by malware infecting your computer.</source>
         <translation>Atheneum зараз закриється, щоб завершити процес шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші AEM'и від крадіжки зловмисним програмним забезпеченням, що заражає ваш комп'ютер.</translation>
->>>>>>> 466fbe2a1ab9ce0d84b39e8c436704f862665715:src/qt/locale/atheneum_uk.ts
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
