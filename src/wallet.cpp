@@ -4046,7 +4046,8 @@ bool CWallet::CreateZerocoinMintTransaction(const CAmount nValue, CMutableTransa
     }
 
 
-    // Sign if these are atheneum outputs - NOTE that zAEM outputs are signed later in SoK    if (!isZCSpendChange) {
+    // Sign if these are atheneum outputs - NOTE that zAEM outputs are signed later in SoK    
+    if (!isZCSpendChange) {
         int nIn = 0;
         for (const std::pair<const CWalletTx*, unsigned int>& coin : setCoins) {
             if (!SignSignature(*this, *coin.first, txNew, nIn++)) {
