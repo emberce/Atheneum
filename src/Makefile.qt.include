@@ -1,4 +1,4 @@
-in_PROGRAMS += qt/atheneum-qt
+bin_PROGRAMS += qt/atheneum-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
 # atheneum qt core #
