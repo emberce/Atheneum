@@ -14,7 +14,7 @@
 #include "sendcoinsentry.h"
 #include "walletmodel.h"
 #include "coincontrol.h"
-#include "zphrcontroldialog.h"
+#include "zAEMcontroldialog.h"
 #include "spork.h"
 
 #include <QClipboard>
@@ -434,7 +434,7 @@ void PrivacyDialog::sendzAEM()
         return;
     }
 
-    // Clear zphr selector in case it was used
+    // Clear zAEM selector in case it was used
     ZAEMControlDialog::listSelectedMints.clear();
 
     // Some statistics for entertainment
