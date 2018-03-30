@@ -17,13 +17,6 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Atheneum"
-            VALUE "FileDescription",    "Atheneum-cli (OSS RPC client for Atheneum)"
-            VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "atheneum-cli"
-            VALUE "LegalCopyright",     COPYRIGHT_STR
-            VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "atheneum-cli.exe"
-            VALUE "ProductName",        "Atheneum-cli"
             VALUE "FileDescription",    "atheneumd (OSS daemon/client for Atheneum)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "atheneumd"
