@@ -38,7 +38,9 @@ bool CheckBlock(int nHeight, const uint256& hash)
 
     MapCheckpoints::const_iterator i = checkpoints.find(nHeight);
     if (i == checkpoints.end()) return true;
-    return hash == i->second;
+    // return hash == i->second;         ##Once checkpoints are inserted into chainparams reverse this
+    return true;                         //Skip checkpoints during genesis
+
 }
 
 //! Guess how far we are in the verification process at the given block index
@@ -71,7 +73,8 @@ double GuessVerificationProgress(CBlockIndex* pindex, bool fSigchecks)
         fWorkAfter = nExpensiveAfter * fSigcheckVerificationFactor;
     }
 
-    return fWorkBefore / (fWorkBefore + fWorkAfter);
+    // return fWorkBefore / (fWorkBefore + fWorkAfter);  ##Once checkpoints are inserted into chainparams reverse this
+    return 0.0;                                          //Skip checkpoints during genesis
 }
 
 int GetTotalBlocksEstimate()
@@ -81,7 +84,8 @@ int GetTotalBlocksEstimate()
 
     const MapCheckpoints& checkpoints = *Params().Checkpoints().mapCheckpoints;
 
-    return checkpoints.rbegin()->first;
+    // return checkpoints.rbegin()->first;    ##Once checkpoints are inserted into chainparams reverse this
+    return 0;                                 //Skip checkpoints during genesis
 }
 
 CBlockIndex* GetLastCheckpoint()
@@ -95,7 +99,8 @@ CBlockIndex* GetLastCheckpoint()
         const uint256& hash = i.second;
         BlockMap::const_iterator t = mapBlockIndex.find(hash);
         if (t != mapBlockIndex.end())
-            return t->second;
+            // return t->second;      ##Once checkpoints are inserted into chainparams reverse this
+            return NULL;              //Skip checkpoints during genesis
     }
     return NULL;
 }

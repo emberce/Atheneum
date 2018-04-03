@@ -2211,15 +2211,15 @@ double ConvertBitsToDouble(unsigned int nBits)
     return dDiff;
 }
 
-int64_t GetBlockValue(int nHeight)
+int64_t GetBlockValue(int nHeight)                              //Confirming Correct Coin Values
 {
     int64_t nSubsidy = 0;
 
     if (nHeight == 0) {
-        nSubsidy = 17500000 * COIN;
+        nSubsidy = 17500000 * COIN;                              
     } else if (nHeight > 0 && nHeight <= 200) {
         nSubsidy = 2500 * COIN;
-    } else if (nHeight > 200 && nHeight <= 250000) {
+    } else if (nHeight > 200 && nHeight <= 250000) {            
         nSubsidy = 7 * COIN;
     } else if (nHeight > 250000 && nHeight <= 518399) {
         nSubsidy = 4.5 * COIN;
