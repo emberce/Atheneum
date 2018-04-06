@@ -55,34 +55,34 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (     0, uint256("2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf"))
-    (  1000, uint256("8defd49579d63545f9e8cdda31f8503e0513328ca3f7428f33a915258c764d15"))
-    ( 10000, uint256("6af2431daa7456e4620e9493091648eeaac8ddfd53d8cff8101c26806e301d9a"))
-    ( 90000, uint256("a883d86273f02cb19252a878d1e0bda1e5321140480b08e3df9544d7b3d1ce56"));
+    (     0, uint256(""))
+    (  1000, uint256(""))
+    ( 10000, uint256(""))
+    ( 90000, uint256(""));
     
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1504595227, // * UNIX timestamp of last checkpoint block
+    0, // * UNIX timestamp of last checkpoint block
     0,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    2000        // * estimated number of transactions per day after checkpoint
+    0        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-    boost::assign::map_list_of(0, uint256("0xe2b4743e2bdf3969037d254a57264460069dc6a364047dff278badeca8523dc3"));
+    boost::assign::map_list_of(0, uint256("0x"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1504595227,
     0,
-    250};
+    0,
+    0};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
-    boost::assign::map_list_of(0, uint256("0xe2b4743e2bdf3969037d254a57264460069dc6a364047dff278badeca8523dc3"));
+    boost::assign::map_list_of(0, uint256("0x"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1504595227,
     0,
-    100};
+    0,
+    0};
 
 libzerocoin::ZerocoinParams* CChainParams::Zerocoin_Params() const
 {
@@ -122,7 +122,7 @@ public:
         nTargetSpacing = 1 * 60;  // Atheneum: 1 minute
         nMaturity = 50;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 1000000000 * COIN;
+        nMaxMoneyOut = 1 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 200;
@@ -167,7 +167,7 @@ public:
         assert(hashGenesisBlock == uint256("0xbf58448a5ecb734d6924cb0fa02b754de0fe4298455b9a8a1eb971c82c63c69a"));
         assert(genesis.hashMerkleRoot == uint256("0x083aa5204809b885cac29263c6374c9b2bbd7718211f8e595c5f94ed4484f5ed"));
 
-        vSeeds.push_back(CDNSSeedData("0", "dns0.atheneumchain.io"));
+        vSeeds.push_back(CDNSSeedData("73.251.204.234", "73.251.204.234"));
         vSeeds.push_back(CDNSSeedData("1", "dns1.atheneumchain.io"));
         vSeeds.push_back(CDNSSeedData("2", "dns2.atheneumchain.io"));
         vSeeds.push_back(CDNSSeedData("3", "dns3.atheneumchain.io"));
