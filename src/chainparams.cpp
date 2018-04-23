@@ -55,12 +55,12 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (     0, uint256("0xbf58448a5ecb734d6924cb0fa02b754de0fe4298455b9a8a1eb971c82c63c69a"))
-    (   200, uint256("0x00000010b6618c39153626e025000f6c4dbd08d399bc6187ca82d9769e9caf49"));
+    (   1000, uint256("0xbf58448a5ecb734d6924cb0fa02b754de0fe4298455b9a8a1eb971c82c63c69a"))
+    (   1200, uint256("0x00000010b6618c39153626e025000f6c4dbd08d399bc6187ca82d9769e9caf49"));
     
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1523227342, // * UNIX timestamp of last checkpoint block
+    1723227342, // * UNIX timestamp of last checkpoint block
     201,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     1000        // * estimated number of transactions per day after checkpoint
@@ -104,9 +104,9 @@ public:
          * a large 4-byte int at any alignment.
          */
         pchMessageStart[0] = 0x41;
-        pchMessageStart[1] = 0x54;
-        pchMessageStart[2] = 0x68;
-        pchMessageStart[3] = 0x65;
+        pchMessageStart[1] = 0x0A;
+        pchMessageStart[2] = 0x5A;
+        pchMessageStart[3] = 0x4C;
         vAlertPubKey = ParseHex("04659d53bd8f7ad9d34a17281febedac754e5a6eb136142d3a9c6c0ea21b6ed7498ceb3d872eed00ae755f7aeadaeb1d9ab5e1a8f1e7efcd0ddcb39d4623c12790");
         nDefaultPort = 11781;
         bnProofOfWorkLimit = ~uint256(0) >> 1;
@@ -130,7 +130,7 @@ public:
         nBlockRecalculateAccumulators = 9005; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = 9002; //First block that bad serials emerged
         nBlockLastGoodCheckpoint = 9005; //Last valid accumulator checkpoint
-        nZerocoinStartTime = 1520978800; // 
+        nZerocoinStartTime = 1520978801; // 
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -151,10 +151,10 @@ public:
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
-        genesis.nVersion = 5;
-        genesis.nTime = 1520978807;
+        genesis.nVersion = 1;
+        genesis.nTime = 1520978800;
         genesis.nBits = 0x207fffff;;
-        genesis.nNonce = 0;
+        genesis.nNonce = 24563;
 
         hashGenesisBlock = genesis.GetHash();
 
@@ -162,10 +162,10 @@ public:
         printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
         printf("genesis.nNonce = %u\n", genesis.nNonce);
 
-        assert(hashGenesisBlock == uint256("0xbf58448a5ecb734d6924cb0fa02b754de0fe4298455b9a8a1eb971c82c63c69a"));
+        assert(hashGenesisBlock == uint256("0x01b2dad426781178e2afd023e63f9f7889463226c97606db3ae1e22d9134f968"));
         assert(genesis.hashMerkleRoot == uint256("0x083aa5204809b885cac29263c6374c9b2bbd7718211f8e595c5f94ed4484f5ed"));
 
-        vSeeds.push_back(CDNSSeedData("73.251.204.234", "73.251.204.234"));
+        vSeeds.push_back(CDNSSeedData("0", "dns0.atheneumchain.io"));
         vSeeds.push_back(CDNSSeedData("1", "dns1.atheneumchain.io"));
         vSeeds.push_back(CDNSSeedData("2", "dns2.atheneumchain.io"));
         vSeeds.push_back(CDNSSeedData("3", "dns3.atheneumchain.io"));
@@ -179,8 +179,8 @@ public:
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 55);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x41)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x41)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
         // 	BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x01)(0xbc).convert_to_container<std::vector<unsigned char> >();
 
@@ -234,7 +234,7 @@ public:
     {
         networkID = CBaseChainParams::TESTNET;
         strNetworkID = "test";
-        pchMessageStart[0] = 0x47;
+        pchMessageStart[0] = 0x48;
         pchMessageStart[1] = 0x76;
         pchMessageStart[2] = 0x65;
         pchMessageStart[3] = 0xba;
@@ -261,7 +261,8 @@ public:
         printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
         printf("genesis.nNonce = %u\n", genesis.nNonce);
-        assert(hashGenesisBlock == uint256("0x15b75226b382a97fb7db004d4e5e7252f358fa5a0c15fd3a5c48e124cf2f98a9")); // We will change this later after rebrand to Atheneum
+        assert(hashGenesisBlock == uint256("0x318463e983c3f87ef02422081f9abb9a2ce6a54719427ea7e11e7d8757a75f22")); // We will change this later after rebrand to Atheneum
+
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -310,11 +311,10 @@ public:
     {
         networkID = CBaseChainParams::REGTEST;
         strNetworkID = "regtest";
-        strNetworkID = "regtest";
-        pchMessageStart[0] = 0xa2;
-        pchMessageStart[1] = 0xcf;
-        pchMessageStart[2] = 0x7e;
-        pchMessageStart[3] = 0xac;
+        pchMessageStart[0] = 0x48;
+        pchMessageStart[1] = 0x76;
+        pchMessageStart[2] = 0x65;
+        pchMessageStart[3] = 0xba;
         nSubsidyHalvingInterval = 150;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
@@ -329,7 +329,7 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 11783;
-        assert(hashGenesisBlock == uint256("0x15b75226b382a97fb7db004d4e5e7252f358fa5a0c15fd3a5c48e124cf2f98a9"));
+        assert(hashGenesisBlock == uint256("0x318463e983c3f87ef02422081f9abb9a2ce6a54719427ea7e11e7d8757a75f22"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
