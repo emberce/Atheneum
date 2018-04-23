@@ -116,11 +116,11 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // Atheneum: 1 day
+        nTargetTimespan = 1 * 60; // Atheneum: 1 day 
         nTargetSpacing = 1 * 60;  // Atheneum: 1 minute
         nMaturity = 50;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 1 * COIN;
+        nMaxMoneyOut = 100000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 200;
