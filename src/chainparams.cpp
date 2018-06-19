@@ -165,16 +165,7 @@ public:
         assert(hashGenesisBlock == uint256("0x01b2dad426781178e2afd023e63f9f7889463226c97606db3ae1e22d9134f968"));
         assert(genesis.hashMerkleRoot == uint256("0x083aa5204809b885cac29263c6374c9b2bbd7718211f8e595c5f94ed4484f5ed"));
 
-        vSeeds.push_back(CDNSSeedData("0", "dns0.atheneumchain.io"));
-        vSeeds.push_back(CDNSSeedData("1", "dns1.atheneumchain.io"));
-        vSeeds.push_back(CDNSSeedData("2", "dns2.atheneumchain.io"));
-        vSeeds.push_back(CDNSSeedData("3", "dns3.atheneumchain.io"));
-        vSeeds.push_back(CDNSSeedData("4", "dns4.atheneumchain.io"));
-        vSeeds.push_back(CDNSSeedData("5", "dns5.atheneumchain.io"));
-        vSeeds.push_back(CDNSSeedData("6", "dns6.atheneumchain.io"));
-        vSeeds.push_back(CDNSSeedData("7", "dns7.atheneumchain.io"));
-        vSeeds.push_back(CDNSSeedData("8", "dns8.atheneumchain.io"));
-        vSeeds.push_back(CDNSSeedData("9", "dns9.atheneumchain.io"));
+        vSeeds.push_back(CDNSSeedData("0", "dnsseed.atheneumchain.io"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
